@@ -1,12 +1,17 @@
 # hello-world
 
-
-
 ## Writing a app that prints the first argument with a greeting ($25)
 
 ### Installation
 
-If using docker a local python runtime is not required.  If you wish to run python locally you can install it here:
+> **NOTE:** If using docker a local python runtime is not required.
+>
+> You can get to the Python IDLE (useful for local testing) like so:
+> ```bash
+> docker run --rm python
+> ```
+
+If you wish to run python locally you can install it here:
 
 https://www.python.org/downloads/
 
@@ -16,6 +21,12 @@ https://www.python.org/downloads/
 python app.py Ethan
 ```
 
+### Questions
+
+* What output do you currently see?
+* Was the `Ethan` argument Evaluated?
+* Can you change the script so that that is evaluated? Please submit a [PR](https://github.com/ej-projects/hello-world/pulls)
+
 ### Useful google search links
 
 * https://www.google.com/search?q=get+arguments+python
@@ -23,6 +34,8 @@ python app.py Ethan
 * https://www.google.com/search?q=get+first+item+in+list+python
 
 ### Desired output
+
+The app.py should output the name passed to it.
 
 ![Desired output](./Screen_Shot_2021-12-05_at_9.44.07_PM.png)
 
@@ -63,6 +76,19 @@ docker build -t hello:local .
 docker run --rm hello:local
 ```
 
+### Questions
+
+* How did this differ from before?
+* What is the advantage of this approach?
+* What is the downside to this approach?
+* Do the benefits outweigh the downsides (Why or why not)?
+
+### Useful google search links
+
+* https://www.google.com/search?q=docker+introduction
+
 ### Desired output
+
+When doing a docker build and docker run you should see output like this:
 
 ![Desired output](Screen_Shot_2021-12-05_at_9.49.11_PM.png)
