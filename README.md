@@ -58,10 +58,22 @@ git clone <repo url>
 git checkout -b feature/feature-name
 ```
 
-#### Getting current branch
+#### Getting list of branches (including current branch as denoted by `*`)
 
 ```bash
 git branch
+```
+
+#### Seeing modified files
+
+```bash
+git status
+```
+
+#### Seeing modified file contents
+
+```bash
+git diff
 ```
 
 #### Adding files
@@ -75,6 +87,23 @@ git add <filename>
 ```bash
 git commit -m "Some meaningful message."
 ```
+
+#### Listing remote repositories
+
+```bash
+git remote -v
+```
+
+#### Pushing code
+
+```bash
+git push -u <remote-name> <reference (like a branch name)>
+```
+> **Note:** Once the upstream repository is defined for the branch subsequent pushes can happen like this:
+> ```bash
+> git push
+> ```
+> Defining an upstream branch will need to happen every time you get a new branch.
 
 ### Questions
 
