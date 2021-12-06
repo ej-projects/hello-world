@@ -18,9 +18,9 @@ python app.py Ethan
 
 ### Useful google search links
 
-https://www.google.com/search?q=get+arguments+python
-https://www.google.com/search?q=get+first+argument+python
-https://www.google.com/search?q=get+first+item+in+list+python
+* https://www.google.com/search?q=get+arguments+python
+* https://www.google.com/search?q=get+first+argument+python
+* https://www.google.com/search?q=get+first+item+in+list+python
 
 ### Desired output
 
@@ -47,7 +47,7 @@ Super in-depth high level overview:
 
 https://www.docker.com/get-started
 
-**Note:** No sign-up is required.
+> **NOTE:** No sign-up is required.
 
 ### Commands
 
