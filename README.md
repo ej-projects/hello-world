@@ -23,9 +23,8 @@ python app.py Ethan
 
 ### Questions
 
-* What output do you currently see?
-* Was the `Ethan` argument Evaluated?
-* Can you change the script so that that is evaluated? Please submit a [PR](https://github.com/ej-projects/hello-world/pulls)
+* What output do you currently see as script output?
+* Was the `Ethan` argument Evaluated? If not evaluated - Can you change the script so that that is evaluated?
 
 ### Useful google search links
 
@@ -43,9 +42,53 @@ The app.py should output the name passed to it.
 
 `sys` has `argv` which might be useful for paring arguments: https://docs.python.org/3/library/sys.html
 
+## Extra Credit: Introduction to `git` ($25)
+
+### Commands
+
+#### Cloning a repo
+
+```bash
+git clone <repo url>
+```
+
+#### Checkout out a new branch
+
+```bash
+git checkout -b feature/feature-name
+```
+
+#### Getting current branch
+
+```bash
+git branch
+```
+
+#### Adding files
+
+```bash
+git add <filename>
+```
+
+#### Commiting code
+
+```bash
+git commit -m "Some meaningful message."
+```
+
+### Questions
+
+* Please submit a [PR](https://github.com/ej-projects/hello-world/pulls) for the above code change to app.py.
+* What's the point to using `git`?
+  - What are the advantages and disadvantages?
+* What's the point of `.gitignore`.
+* Who uses `git`?
+  - What are some well known Open Source Software (OSS) projects that use `git`?
+  - Do any Fortune 500 companies use `git`?
+
 ## Extra Credit: Running your app in a python container ($25)
 
-### Why should you use Docker in lieu of local runtimes:
+### Why should you use Docker in lieu of local runtimes?
 
 Reading:
 
