@@ -39,6 +39,10 @@ The app.py should output the name passed to it.
 
 ![Desired output](./Screen_Shot_2021-12-05_at_9.44.07_PM.png)
 
+### Hint
+
+`sys` has `argv` which might be useful for paring arguments: https://docs.python.org/3/library/sys.html
+
 ## Extra Credit: Running your app in a python container ($25)
 
 ### Why should you use Docker in lieu of local runtimes:
@@ -82,6 +86,10 @@ docker run --rm hello:local
 * What is the advantage of this approach?
 * What is the downside to this approach?
 * Do the benefits outweigh the downsides (Why or why not)?
+* Were you able to run the python IDLE locally using docker?
+* How easy or hard would it be to run a database locally like `mysql` with docker?
+  - [installation instructions](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
+  - [docker run instructions](https://hub.docker.com/_/mysql)
 
 ### Useful google search links
 
