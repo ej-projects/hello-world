@@ -2,7 +2,7 @@
 
 
 
-## Writing a app that prints the first argument ($25)
+## Writing a app that prints the first argument with a greeting ($25)
 
 ### Installation
 
